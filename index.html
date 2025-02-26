@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonny Sport - Incentivi Sportivi</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <div class="logo">
+            <svg
+              class="logo-img"
+              viewBox="0 0 60 60"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="60" height="60" rx="0" fill="#000000" />
+              <text
+                x="50%"
+                y="50%"
+                dominant-baseline="middle"
+                text-anchor="middle"
+                fill="#e11d48"
+                font-size="40"
+                font-weight="900"
+              >
+                B
+              </text>
+            </svg>
+            <h1>BONNY<span class="accent">.</span></h1>
+          </div>
+          <p class="slogan">
+            Rivoluzionando l'accesso agli incentivi sportivi in Italia
+          </p>
+
+          <div class="header-stats">
+            <div class="stat-bubble">
+              <span class="number">3+</span>
+              <span class="label">Anni nel settore sportivo</span>
+            </div>
+            <div class="stat-bubble">
+              <span class="number">1000+</span>
+              <span class="label">Cittadini supportati</span>
+            </div>
+            <div class="stat-bubble">
+              <span class="number">50+</span>
+              <span class="label">Partnership strategiche</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="card-container">
+          <div class="section">
+            <div class="section-header">
+              <div class="icon-wrapper">⚡</div>
+              <h2 class="section-title">La Nostra Startup</h2>
+            </div>
+            <div class="section-content">
+              <div id="startup-info"></div>
+
+              <div class="stats-row">
+                <div class="stat-item">
+                  <div class="stat-value">2</div>
+                  <div class="stat-label">Incentivi Attivi</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">4</div>
+                  <div class="stat-label">Servizi Offerti</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-header">
+              <div class="icon-wrapper">🎯</div>
+              <h2 class="section-title">Incentivi Disponibili</h2>
+            </div>
+            <div class="section-content">
+              <div id="incentivi-info"></div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-header">
+              <div class="icon-wrapper">👥</div>
+              <h2 class="section-title">Community</h2>
+            </div>
+            <div class="section-content">
+              <div id="cittadini-info"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="log-container">
+          <div class="section-header log-header">
+            <div class="icon-wrapper">📋</div>
+            <h2 class="section-title">Attività Sistema</h2>
+          </div>
+          <div id="output" class="activity-feed"></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
