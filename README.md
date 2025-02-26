@@ -1,50 +1,50 @@
 # Bonny Sport 🏆
 
-Un'applicazione web moderna per la gestione di incentivi sportivi, sviluppata con TypeScript e progettata con un'architettura orientata agli oggetti.
+A modern web application for sports incentive management, developed with TypeScript and designed with an object-oriented architecture.
 
-## Descrizione
+## Description
 
-Bonny Sport è una piattaforma che semplifica l'accesso ai bonus sportivi statali e promuove l'attività fisica, collegando cittadini, incentivi finanziari e servizi sportivi in un unico ecosistema digitale.
+Bonny Sport is a platform that simplifies access to state sports bonuses and promotes physical activity by connecting citizens, financial incentives, and sports services in a single digital ecosystem.
 
-## Tecnologie Utilizzate
+## Technologies Used
 
 - TypeScript
 - HTML5 / CSS3
-- Programmazione Orientata agli Oggetti (OOP)
-- Design Responsive
+- Object-Oriented Programming (OOP)
+- Responsive Design
 
-## Funzionalità Principali
+## Main Features
 
-- **Gestione Incentivi**: Visualizzazione e assegnazione di bonus sportivi
-- **Profili Utente**: Gestione di profili cittadini con interessi sportivi
-- **Sistema di Logging**: Monitoraggio in tempo reale delle attività di sistema
-- **UI Moderna**: Interfaccia utente elegante con tema personalizzato rosso/nero
+- **Incentive Management**: View and assign sports bonuses
+- **User Profiles**: Management of citizen profiles with sports interests
+- **Logging System**: Real-time monitoring of system activities
+- **Modern UI**: Elegant user interface with custom red/black theme
 
-## Struttura del Progetto
+## Project Structure
 
-Il progetto implementa un'architettura basata su interfacce e classi:
+The project implements an architecture based on interfaces and classes:
 
-- `IStartup`, `IIncentivo`, `ICittadino`: Interfacce che definiscono i contratti di tipo
-- `Startup`, `Incentivo`, `Cittadino`: Classi che implementano la logica di business
-- Sistema di visualizzazione reattivo che aggiorna l'UI in tempo reale
+- `IStartup`, `IIncentivo`, `ICittadino`: Interfaces that define type contracts
+- `Startup`, `Incentivo`, `Cittadino`: Classes that implement business logic
+- Reactive display system that updates the UI in real-time
 
-## Come eseguire localmente
+## How to Run Locally
 
-1. Clona il repository
-2. Apri `index.html` nel tuo browser
+1. Clone the repository
+2. Open `index.html` in your browser
 
-## Sviluppo
+## Development
 
-Per contribuire o modificare il progetto:
+To contribute to or modify the project:
 
-1. Installa le dipendenze: `npm install`
-2. Compila TypeScript in watch mode: `npm run watch`
-3. Per una build di produzione: `npm run build`
+1. Install dependencies: `npm install`
+2. Compile TypeScript in watch mode: `npm run watch`
+3. For a production build: `npm run build`
 
-## Autore
+## Author
 
 Matteo Ratto
 
-## Licenza
+## License
 
 MIT
